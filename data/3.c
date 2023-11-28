@@ -88,7 +88,7 @@ void inorderTraversal(struct TreeNode *root)
 
 int main()
 {
-    printf("请输入先序遍历序列，-1表示空节点，以空格分隔：\n");
+    // printf("请输入先序遍历序列，-1表示空节点，以空格分隔：\n");
     struct TreeNode *root = buildTree();
     printf("中序遍历结果：\n");
     inorderTraversal(root);
